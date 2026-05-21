@@ -8,7 +8,7 @@ A collection of LeetCode and algorithm practice solutions implemented in Go.
 
 **Files**
 - `main.go`: Example runner that calls the implemented solutions. See [main.go](LeetCode DSA/main.go).
-- `TwoSum.go`: Implementation of the Two Sum problem (`twoSum`). See [TwoSum.go](LeetCode DSA/TwoSum.go).
+- `TwoSum.go`: Implementation of the Two Sum problem (`twoSum`). See [TwoSum.go](LeetCode DSA/TwoSum.go). https://leetcode.com/problems/two-sum/description/
 - `BestTimetoBuyandSellStock.go`: Single-transaction max profit function (`maxProfit`). See [BestTimetoBuyandSellStock.go](LeetCode DSA/BestTimetoBuyandSellStock.go). https://leetcode.com/problems/best-time-to-buy-and-sell-stock/solutions/4868897/most-optimized-kadanes-algorithm-java-c-2yt85/
 - `KadaneAlgo.go`: Kadane's algorithm implementation (`KadaneMaxSum`). See [KadaneAlgo.go](LeetCode DSA/KadaneAlgo.go).
 - `go.mod`: Module definition for the package.
