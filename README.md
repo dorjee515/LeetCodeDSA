@@ -10,7 +10,9 @@ A collection of LeetCode and algorithm practice solutions implemented in Go.
 - `main.go`: Example runner that calls the implemented solutions. See [main.go](LeetCode DSA/main.go).
 - `TwoSum.go`: Implementation of the Two Sum problem (`twoSum`). See [TwoSum.go](LeetCode DSA/TwoSum.go). https://leetcode.com/problems/two-sum/description/
 - `BestTimetoBuyandSellStock.go`: Single-transaction max profit function (`maxProfit`). See [BestTimetoBuyandSellStock.go](LeetCode DSA/BestTimetoBuyandSellStock.go). https://leetcode.com/problems/best-time-to-buy-and-sell-stock/solutions/4868897/most-optimized-kadanes-algorithm-java-c-2yt85/
-- `KadaneAlgo.go`: Kadane's algorithm implementation (`KadaneMaxSum`). See [KadaneAlgo.go](LeetCode DSA/KadaneAlgo.go).
+- `KadaneAlgo.go`: Kadane's algorithm implementation (`KadaneMaxSum`). See [KadaneAlgo.go](LeetCode DSA/KadaneAlgo.go). https://leetcode.com/problems/maximum-subarray/
+- `ContainsDuplicate.go`: Contains Duplicate problem implementation (`containsDuplicate`). See [ContainsDuplicate.go](LeetCode DSA/ContainsDuplicate.go). https://leetcode.com/problems/contains-duplicate/
+- `ProductofArrayExceptSelf.go`: Product of Array Except Self implementation (`productExceptSelf`). See [ProductofArrayExceptSelf.go](LeetCode DSA/ProductofArrayExceptSelf.go). https://leetcode.com/problems/product-of-array-except-self/
 - `go.mod`: Module definition for the package.
 
 **How to run**
@@ -36,5 +38,9 @@ Notes:
 - Add a short description for each algorithm and link to the corresponding LeetCode problem.
 
 ---
-Generated on: 2026-05-21
-# LeetCodeDSA
+**Recent Updates (2026-05-22):**
+- Added `ContainsDuplicate.go` - Detects duplicate elements in an array
+- Added `ProductofArrayExceptSelf.go` - Calculates product of array elements except self
+- Linked LeetCode problems for all algorithm implementations
+
+Generated on: 2026-05-22
