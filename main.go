@@ -14,4 +14,13 @@ func main() {
 	//kande's algo
 	arr := []int{2, 3, -8, 7, -1, 2, 3}
 	fmt.Println(KadaneMaxSum(arr))
+	//Contains Duplicate
+	duplicates := []int{1, 2, 3, 4}
+	fmt.Println(containsDuplicate(duplicates))
+	//ProductOfArrayExceptSelf
+	nums1 := []int{1, 2, 3, 4}
+	ans1 := productExceptSelf(nums1)
+	for _, num := range ans1 {
+		fmt.Println(num)
+	}
 }
