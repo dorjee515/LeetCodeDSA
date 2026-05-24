@@ -23,4 +23,7 @@ func main() {
 	for _, num := range ans1 {
 		fmt.Println(num)
 	}
+	//MaximumSubarray
+	nums2 := []int{-2, 1, -3, 4, -1, 2, 1, -5, 4}
+	fmt.Println(maxSubArray(nums2))
 }
